@@ -16,5 +16,7 @@ public class Producto {
 
     private Date createAt;
 
+    private Integer port;
+
 
 }

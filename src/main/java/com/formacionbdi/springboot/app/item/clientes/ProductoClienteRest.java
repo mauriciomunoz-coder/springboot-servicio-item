@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "servicio-productos", url = "localhost:8001")  //nombre y puerto del microservicio a consumir
+@FeignClient(name = "servicio-productos")  //nombre  del microservicio a consumir
 public interface ProductoClienteRest {
 
     //metodos traidos del controlador del microservicio service-productos
